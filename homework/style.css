@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cantiner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    
+}
+.navbar{
+    position: absolute;
+    top: 10px;
+    display: flex;
+  
+}
+
+.navbar H3{ 
+    padding-left: 40px;
+    z-index: 10;
+}
+.link a{
+    margin-left: 10px;
+    position: relative;
+    left: 740px;
+    z-index: 10;
+    color: black;
+    text-decoration: none;
+}
+
+.link i{
+    position: relative;
+    z-index: 10;
+    left: 740px;
+    
+}
+/* span p{
+    text-align: end;
+    padding-left: 13px;
+    font-size: 14px;
+  
+}span{
+   position: relative;
+    left: 800px;
+    z-index: 10;
+} */
+
+ 
+.content{
+    width: 100%;
+    height: 700px;
+    display: flex;
+
+}
+.left{
+    position: relative;
+    width: 45%;
+    height: 700px;
+    background: #fff;
+}
+.text1{
+    display: flex;
+    position: relative;
+    top: 160px;
+    left: 537px;
+}
+.text1 p{
+  font-size: 14px;
+}
+.text2{
+    position: relative;
+    top: 162px;
+    left: 200px;
+}
+.text3{
+    position: relative;
+    top: 166px;
+    left: 544px;
+    font-size: 14px;
+    color: gray;
+}
+.doir{
+    display: flex;
+    position: relative;
+   
+}
+.doir p{
+    margin-left: 10px;
+    padding-top: 7px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 50%;
+    position: relative;
+    top: 180px;
+    left: 299px;
+}
+
+.textp{
+    color: black;
+   
+}
+.textcolor{
+    position: relative;
+    top: 195px;
+    left: 514px;
+    font-size: 14px;
+    color: gray;
+   
+}
+
+.color{
+    display: flex;
+    position: relative;
+    top: 210px;
+    left: 435px;
+   
+}
+.color p{
+  
+    margin-left: 10px;
+}
+.par1{
+ border: 2px solid rgba(128, 128, 128, 0.89);
+ background: #fff;
+ width: 35px;
+ height: 35px;
+ border-radius: 50%;
+ outline: 2px solid rgba(128, 128, 128, 0.76);
+}
+.par2{
+    border: 2px solid rgba(128, 128, 128, 0.823);
+    background: blue;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline: 2px solid rgba(128, 128, 128, 0.864);
+}
+.par3{
+    border: 2px solid rgba(128, 128, 128, 0.89);
+    background: red;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline: 2px solid rgba(0, 0, 0, 0.712);
+}
+.paragraf{
+    position: relative;
+    top: 225px;
+    left: 47px;
+    color: gray;
+   
+}
+.btn{
+    width: 130px;
+    height: 35px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50px;
+    position: relative;
+    top: 280px;
+    left: 380px;
+}
+.right{
+    width: 55%;
+    height: 700px;
+    background:#fff;
+    position: relative;
+   
+    
+}
+
+
+.radius{
+    margin-left: 5%;
+    width: 95%;
+    height: 700px;
+    border: 1px solid #3D5BA4;
+    border-bottom-left-radius: 100%;
+    background: #3D5BA4;
+}
+.radius img {
+
+    position: absolute;
+    top: 110px;
+    left: 70px;
+
+}
+.image img {
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+    position: relative;
+    top:185px;
+    left: 100px;
+    /* background-image: url('https://cdn-images.farfetch-contents.com/12/83/31/75/12833175_21352546_1000.jpg');
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+.reklama{
+    position: relative;
+    top: 230px;
+    left: 460px;
+}
+.image1 img {
+    position: relative;
+    top: 18px;
+    left: 100px;
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+}
+.image2 img {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+}
+.image3 img {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.link:hover .link .a{
+    text-decoration: overline;
+    background-color: #3D5BA4;
+    position: relative;
+    z-index: 10;
+}
+.btn:hover{
+ background: #555;
+ color: #fff;
+ border: 1px solid grey;
+
+}
